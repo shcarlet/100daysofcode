@@ -11,7 +11,7 @@ public:
         {
             maxheap.push(i.second);   //freaquency of alphabets
         }
-        int t=0;
+        int t=0; //TIME
         queue<pair<int,int>>q;
         while(!maxheap.empty() || !q.empty())
         {
