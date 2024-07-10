@@ -4,7 +4,7 @@ public:
         int res=0;
         for(int n:nums)
         {
-            res=n^res;
+            res=n^res;  //x-or
         }
         return res;
     }
